@@ -1,0 +1,114 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+body {
+    color: white;
+    background-color: grey;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+#section {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+    background-color: transparent;
+    box-shadow: 3px 3px 7px 7px rgba(0,0,0,0.3) ;
+    font-size: 25px;
+    padding: 50px 35px;
+    background-image: url(Myimages/signupbackground.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#signup-here {
+    font-size: 35px;
+    padding: 20px;
+    padding-top: -20px;
+}
+#userinput, #firstinput, #secondinput, #thirdinput{
+    position: relative;
+}
+#userinputinside, #firstinputinside, #secondinputinside, #thirdinputinside {
+    padding-left: 40px;
+}
+.input {
+    display: block;
+    width: 300px;
+    height: 40px;
+    margin-bottom: 10px;
+}
+.fa-user {
+    position: absolute;
+    color: black;
+    left: 15px;
+    top: 12px;
+    font-size: 15px;
+}
+.fa-lock {
+    position: absolute;
+    color: black;
+    left: 15px;
+    top: 12px;
+    font-size: 15px;
+}
+h1 {
+    font-weight: 600;
+}
+#makesure {
+    font-size: 16px;
+    padding-bottom: 5px;
+    background-color: rgb(73, 73, 73);
+    padding-top: -10px;
+    width: 300px;
+}
+
+
+#btnsign-up {
+    width: 300px;
+    height: 40px;
+    background-color: rgb(48, 152, 180);
+    color: white;
+    font-size: 17px;
+    border: none;
+    text-transform: uppercase;
+    font-weight: bold;
+    cursor: pointer;
+    letter-spacing: 4px;
+    margin-top: 5px;
+    margin-left: -7px;
+}
+#btnsign-up:hover {
+    background-color: rgb(58, 58, 255);
+}
+#lastsentence {
+    font-size: 25px;
+}
+#orsignipwith {
+    font-size: 16px;
+    padding: 16px;
+    text-shadow: black 1px;
+}
+#btnface, #btninsta {
+    height: 40px;
+    width: 150px;
+    font-weight: 600;
+    border: none;
+    font-size: 16px;
+    letter-spacing: 1px;
+}
+#btnface {
+    background-color: rgb(45, 125, 216);
+    color: white;
+    padding-left: -5px;
+    cursor: pointer;
+}
+#btninsta {
+    background-color: rgb(233, 50, 105);
+    color: white;
+    cursor: pointer;
+}
+
+
